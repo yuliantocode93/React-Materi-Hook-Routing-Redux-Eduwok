@@ -4,8 +4,10 @@ const Counter = () => {
   let [count, setCount] = useState(0);
 
   useEffect(() => {
-    setCount(count + 1);
-  }, [count]);
+    if (count > 0) {
+      setCount((c) => c + 1);
+    }
+  }, []);
 
   return (
     <div>
