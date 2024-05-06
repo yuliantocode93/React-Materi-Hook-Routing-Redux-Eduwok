@@ -3,7 +3,7 @@ import Counter from "./pembahasan/Counter.jsx";
 import Effect2 from "./pembahasan/Effect-2.jsx";
 import Effect from "./pembahasan/Effect.jsx";
 import { useToggle } from "./pembahasan/Hook/useToggle.js";
-import Identify from "./pembahasan/Identify.jsx";
+import Identify from "./pembahasan/Identity.jsx";
 
 const Hooks = () => {
   let [label, setLabel] = useState("On");

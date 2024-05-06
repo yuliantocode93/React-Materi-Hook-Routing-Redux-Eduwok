@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-const Identify = () => {
+const Identity = () => {
   const fetchUser = useCallback(() => {
     return ["user1", "user2", "user3"];
   });
@@ -21,4 +21,4 @@ const Identify = () => {
   );
 };
 
-export default Identify;
+export default Identity;
