@@ -2,7 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 import Component from "./Components";
 import Hooks from "./Hooks";
 import "./App.css";
-
+import Redux from "./Redux-Framework/Index";
 function App() {
   return (
     <div className="App">
@@ -20,8 +20,9 @@ function App() {
           Tech
         </Link>
       </nav>
-
       <Outlet />
+      <br />
+      <Redux />
     </div>
   );
 }
