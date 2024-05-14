@@ -43,7 +43,6 @@ const Hooks = () => {
       <Counter />
       <Effect />
       <br />
-      <br />
       <Effect2 />
       <Identify />
     </div>

@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
-// import Component from "./Components";
-// import Hooks from "./Hooks";
+import Component from "./Components";
+import Hooks from "./Hooks";
 import "./App.css";
 import Redux from "./Redux-Framework/Index";
 function App() {
@@ -23,6 +23,14 @@ function App() {
       <Outlet />
       <br />
       <Redux />
+      <br />
+      <hr />
+      <h1>Hooks</h1>
+      <Hooks />
+      <br />
+      <hr />
+      <h1>Component</h1>
+      <Component />
     </div>
   );
 }
