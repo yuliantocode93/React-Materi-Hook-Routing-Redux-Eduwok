@@ -40,10 +40,17 @@ const Hooks = () => {
       >
         {label}
       </button>
+      <h2>counter:</h2>
       <Counter />
+
+      <h2>Effect-1:</h2>
       <Effect />
       <br />
+
+      <h2>Effect-2:</h2>
       <Effect2 />
+
+      <h2>Identity:</h2>
       <Identify />
     </div>
   );
