@@ -40,6 +40,8 @@ const Hooks = () => {
       >
         {label}
       </button>
+
+      <br />
       <h2>counter:</h2>
       <Counter />
 
