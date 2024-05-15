@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 const Effect = () => {
   const [count, setCount] = useState(0);
+
   useEffect(() => {
     document.title = `You clicked ${count} times`;
   });
